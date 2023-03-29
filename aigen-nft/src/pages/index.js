@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
 import { useState, useEffect } from 'react';
 import { NFTStorage, File } from 'nft.storage'
 import { Buffer } from 'buffer';
@@ -120,7 +119,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div>
+    <div className=' bg-slate-500 flex m-0 p-0 text-sm'>
       <Navigation account={account} setAccount={setAccount} />
 
       <div className='form'>
