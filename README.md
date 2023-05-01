@@ -25,10 +25,10 @@ This is a decentralized app that allows users to mint an NFT by providing a name
    NEXT_PUBLIC_HUGGING_FACE_API_KEY=<access-token>
    PRIVATE_KEY=<your-private-key>
    NFT_CONTRACT_ADDRESS=<address-of-the-deployed-contract>
-   NEXT_PUBLIC_NFT_STORAGE_API_KEY=<api-key>
+   NEXT_PUBLIC_NFT_STORAGE_API_KEY=<nft-storage-api-key>
    ```
 
-   Replace `<HTTP_Provider>` with your QuickNode HTTP Provider  URL,`<your-api-key>` with your HuggingFace API key, `<your-private-key>` with your private key, `<address-of-the-deployed-contract>` with the address of the deployed contract, and <api-key> for the nft.storage .
+   Replace `<HTTP_Provider>` with your QuickNode HTTP Provider  URL,`<your-api-key>` with your HuggingFace API key, `<your-private-key>` with your private key, `<address-of-the-deployed-contract>` with the address of the deployed contract, and `<nft-storage-api-key>` for the nft.storage .
 
 4. Start the app: `npm run dev`
 
